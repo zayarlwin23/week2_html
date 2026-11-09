@@ -1,0 +1,82 @@
+
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #005f99;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Main content */
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Profile cards */
+.biography,
+.achievements {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture */
+.biography img {
+    display: block;
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+}
+
+/* Headings */
+h2 {
+    color: #005f99;
+    border-bottom: 2px solid #dce6ed;
+    padding-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Lists */
+ul {
+    line-height: 2;
+}
+
+/* Hover effect */
+.biography:hover,
+.achievements:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background-color: #005f99;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
